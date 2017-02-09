@@ -1,1 +1,1 @@
-pod repo push 18plan WxSDK.podspec --allow-warnings --verbose --use-libraries
+pod repo push sdo-specs WxSDK.podspec --allow-warnings --verbose --use-libraries
