@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source ={:git=>'git@github.com:18plan/wechatsdk.git',:tag=>s.version.to_s}
-  s.public_header_files = '*.h'
+  s.source_files = '*.h'
   # s.resources = 'README.txt'
 
   s.libraries = 'z', 'sqlite3'
