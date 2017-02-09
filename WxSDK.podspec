@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source_files = '*.h'
   # s.resources = 'README.txt'
 
-  s.libraries = 'z', 'sqlite3'
+  s.libraries = 'z', 'sqlite3', 'c++'
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'Security', 'CFNetwork'
   s.vendored_libraries = 'libWeChatSDK.a'
 
