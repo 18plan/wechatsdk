@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source ={:git=>'git@github.com:18plan/wechatsdk.git',:tag=>s.version.to_s}
   s.public_header_files = '*.h'
-  s.resources = 'README.txt'
+  # s.resources = 'README.txt'
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'Security', 'CFNetwork'
