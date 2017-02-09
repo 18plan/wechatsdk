@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WxSDK"
-  s.version      = "1.7.5"
+  s.version      = "1.7.6"
   s.summary      = "WxSDK library, version:1.7.5"
   s.homepage     = "http://www.sdkbus.com"
   s.author       = { 'WxSDK' => 'http://www.sdkbus.com' }
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source ={:git=>'git@github.com:18plan/wechatsdk.git',:tag=>s.version.to_s}
   s.public_header_files = '*.h'
-  s.resources = 'README.txt'
+  # s.resources = 'README.txt'
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'Security', 'CFNetwork'
