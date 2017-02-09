@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '7.0'
 
-  s.source ={:git=>'git@github.com:18plan/wechatsdk.git',:tag=>s.version.to_s}
+  s.source ={:git=>'https://github.com/18plan/wechatsdk.git',:tag=>s.version.to_s}
   s.source_files = '*.h'
   # s.resources = 'README.txt'
 
